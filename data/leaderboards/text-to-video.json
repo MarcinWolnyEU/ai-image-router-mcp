@@ -1,0 +1,20 @@
+{
+  "leaderboard": "text-to-video",
+  "title": "Text to Video",
+  "source": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+  "metric": "Artificial Analysis AA-Video-T2V v2.0 Elo (with-audio view, blind human preference)",
+  "captured": "2026-10-04",
+  "note": "Top 10 as of the capture date (default 'With Audio' view). The config wizard highlights any gateway model whose id/name matches one of these (via 'aliases') as '<rank> best as of 2026-10-04'. See docs/UPDATING-LEADERBOARDS.md to refresh.",
+  "models": [
+    { "rank": 1, "name": "Wan 3.0", "creator": "Alibaba", "elo": 1156, "released": "2026-08", "aliases": ["wan-3.0", "wan 3.0", "wan3", "alibaba/wan-3.0"] },
+    { "rank": 2, "name": "Utopai X (based on MiniMax H3)", "creator": "Utopai Studios", "elo": 1148, "released": "2026-09", "aliases": ["utopai-x", "utopai x", "utopaix"] },
+    { "rank": 3, "name": "Dreamina Seedance 2.5", "creator": "ByteDance Seed", "elo": 1142, "released": "2026-07", "aliases": ["dreamina-seedance-2.5", "seedance-2.5", "seedance 2.5", "dreamina seedance 2.5", "seedance2.5"] },
+    { "rank": 4, "name": "MiniMax H3 (768p)", "creator": "MiniMax", "elo": 1138, "released": "2026-07", "openWeights": true, "aliases": ["minimax-h3-768p", "minimax-h3", "minimax h3", "hailuo-3"] },
+    { "rank": 5, "name": "MiniMax H3 Max (based on MiniMax H3)", "creator": "Fal", "elo": 1134, "released": "2026-08", "aliases": ["hailuo-3-max", "minimax-h3-max", "minimax h3 max"] },
+    { "rank": 6, "name": "FLUX 3", "creator": "Black Forest Labs", "elo": 1127, "released": "2026-07", "aliases": ["flux-3-video", "flux 3 video", "flux-3", "flux3"] },
+    { "rank": 7, "name": "Dreamina Seedance 2.0", "creator": "ByteDance Seed", "elo": 1119, "released": "2026-03", "aliases": ["dreamina-seedance-2.0", "seedance-2.0", "seedance 2.0", "dreamina seedance 2.0", "seedance2"] },
+    { "rank": 8, "name": "Gemini Omni Flash 1.1", "creator": "Google", "elo": 1113, "released": "2026-08", "aliases": ["gemini-omni-flash-1.1", "gemini omni flash 1.1"] },
+    { "rank": 9, "name": "SkyReels V4", "creator": "Skywork AI", "elo": 1075, "released": "2026-03", "aliases": ["skyreels-v4", "skyreels v4", "skyreels"] },
+    { "rank": 10, "name": "Agnes-Video-2.5", "creator": "Sapiens AI", "elo": 1058, "released": "2026-08", "aliases": ["agnes-video-2.5", "agnes video 2.5"] }
+  ]
+}

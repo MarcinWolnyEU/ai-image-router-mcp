@@ -1,0 +1,20 @@
+{
+  "leaderboard": "text-to-image",
+  "title": "Text to Image",
+  "source": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+  "metric": "Artificial Analysis AA-Image-T2I v2.0 Arena Elo (blind human preference)",
+  "captured": "2026-10-04",
+  "note": "Top 10 as of the capture date. The config wizard highlights any gateway model whose id/name matches one of these (via 'aliases') as '<rank> best as of 2026-10-04'. See docs/UPDATING-LEADERBOARDS.md to refresh.",
+  "models": [
+    { "rank": 1, "name": "GPT Image 2.5 Sunburst (max)", "creator": "OpenAI", "elo": 1197, "released": "2026-09", "aliases": ["gpt-image-2.5-sunburst", "gpt image 2.5 sunburst", "gptimage2.5sunburst"] },
+    { "rank": 2, "name": "GPT Image 2.5 Flare (max)", "creator": "OpenAI", "elo": 1191, "released": "2026-09", "aliases": ["gpt-image-2.5-flare", "gpt image 2.5 flare", "gptimage2.5flare"] },
+    { "rank": 3, "name": "GPT Image 2 (high)", "creator": "OpenAI", "elo": 1172, "released": "2026-04", "aliases": ["gpt-image-2", "gpt image 2", "gpt-image-2-high", "gptimage2", "gpt-5.4-image-2", "gpt 5.4 image 2"] },
+    { "rank": 4, "name": "Grok Imagine Image 2.0", "creator": "SpaceXAI", "elo": 1155, "released": "2026-08", "aliases": ["grok-imagine-image-2.0", "grok imagine image 2.0", "grok-imagine-image-2"] },
+    { "rank": 5, "name": "MAI-Image-2.6", "creator": "Microsoft AI", "elo": 1151, "released": "2026-08", "aliases": ["mai-image-2.6", "mai image 2.6", "maiimage2.6"] },
+    { "rank": 6, "name": "Nano Banana 2 (Gemini 3.1 Flash Image)", "creator": "Google", "elo": 1125, "released": "2026-02", "aliases": ["nano-banana-2", "nano banana 2", "gemini-3.1-flash-image", "gemini-3.1-flash-image-preview", "gemini 3.1 flash image"] },
+    { "rank": 7, "name": "Muse Image", "creator": "Meta", "elo": 1115, "released": "2026-07", "aliases": ["muse-image", "muse image", "meta/muse-image"] },
+    { "rank": 8, "name": "GPT Image 1.5 (high)", "creator": "OpenAI", "elo": 1107, "released": "2025-12", "aliases": ["gpt-image-1.5", "gpt image 1.5", "gpt-image-1-5"] },
+    { "rank": 9, "name": "MAI-Image-2.6-Flash", "creator": "Microsoft AI", "elo": 1106, "released": "2026-09", "aliases": ["mai-image-2.6-flash", "mai image 2.6 flash", "maiimage2.6flash"] },
+    { "rank": 10, "name": "MAI-Image-2.5", "creator": "Microsoft AI", "elo": 1104, "released": "2026-06", "aliases": ["mai-image-2.5", "mai image 2.5", "maiimage2.5"] }
+  ]
+}

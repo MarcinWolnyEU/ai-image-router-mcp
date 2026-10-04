@@ -1,0 +1,48 @@
+{
+  "$comment": "Fallback aspect-ratio choices offered by the config wizard when a gateway/model API does not advertise its own supported aspect ratios. 'decimal' is width/height.",
+  "default": "4:3",
+  "ratios": [
+    {
+      "value": "4:3",
+      "label": "DSLR / old TV",
+      "description": "Classic 4:3 — DSLR stills and pre-HD television. The wizard default.",
+      "decimal": 1.3333
+    },
+    {
+      "value": "16:9",
+      "label": "Modern TV / HD widescreen",
+      "description": "Widescreen HD — modern TVs and most monitors.",
+      "decimal": 1.7778
+    },
+    {
+      "value": "16:10",
+      "label": "Typical smartphone / laptop (landscape)",
+      "description": "Common laptop and smartphone landscape ratio.",
+      "decimal": 1.6
+    },
+    {
+      "value": "18:39",
+      "label": "iPhone (tall, ~9:19.5)",
+      "description": "Tall phone-screen ratio used by recent iPhones (18:39 = 0.4615 ≈ 9:19.5).",
+      "decimal": 0.4615
+    },
+    {
+      "value": "21:9",
+      "label": "Ultrawide / cinematic",
+      "description": "Cinematic ultrawide — film and ultrawide monitors.",
+      "decimal": 2.3333
+    },
+    {
+      "value": "2:1",
+      "label": "Univisium (2:1)",
+      "description": "2:1 — increasingly common for streaming and film.",
+      "decimal": 2.0
+    },
+    {
+      "value": "1:1",
+      "label": "Square",
+      "description": "Square — social posts, avatars, icons.",
+      "decimal": 1.0
+    }
+  ]
+}

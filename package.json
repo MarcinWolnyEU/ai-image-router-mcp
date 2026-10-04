@@ -1,0 +1,77 @@
+{
+  "name": "ai-image-router-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that routes image generation, image-to-video, text-to-video, and local background removal across multiple LLM gateways (OpenRouter, Mistral, Eden AI).",
+  "type": "module",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "main": "dist/index.js",
+  "bin": {
+    "ai-image-router-mcp": "dist/index.js",
+    "ai-image-router-mcp-configure": "dist/config/wizard.js"
+  },
+  "files": [
+    "dist",
+    "data",
+    "docs",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\" && tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "config": "tsx src/config/wizard.ts",
+    "config:built": "tsx src/config/wizard.ts",
+    "configure": "tsx src/config/wizard.ts",
+    "configure:built": "node dist/config/wizard.js",
+    "typecheck": "tsc --noEmit",
+    "trellis": "trellis audit .",
+    "list-tools": "tsx scripts/list-tools.ts",
+    "unit": "node --import tsx --test tests/sanitize.test.ts tests/postprocess.test.ts tests/generationJobs.test.ts tests/files.test.ts tests/openrouter.test.ts tests/http.test.ts tests/fal.test.ts tests/mime.test.ts tests/executionProvider.test.ts tests/sysinfo.test.ts tests/sharedHelpers.test.ts tests/eden.test.ts",
+    "integration:nonpayment": "node --import tsx --test tests/references.test.ts tests/transform.test.ts tests/gif.test.ts tests/ico.test.ts tests/iconSet.test.ts tests/constraints.test.ts tests/asyncRuntime.test.ts tests/toolsAsync.integration.test.ts tests/imageResult.test.ts tests/toolsReload.integration.test.ts tests/bgPreprocess.test.ts tests/capabilityCache.test.ts tests/modelDownload.test.ts tests/runtimeRemover.test.ts tests/httpTransport.test.ts tests/transformVideo.test.ts tests/saveFalse.test.ts",
+    "integration:paid": "node --import tsx --test \"tests/paid/**/*.test.ts\"",
+    "test": "npm run unit && npm run integration:nonpayment"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "image-generation",
+    "text-to-video",
+    "image-to-video",
+    "background-removal",
+    "openrouter",
+    "mistral",
+    "edenai",
+    "web-design",
+    "awwwards",
+    "animation"
+  ],
+  "author": "Marcin Wolny",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcinWolnyEU/ai-image-router-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarcinWolnyEU/ai-image-router-mcp/issues"
+  },
+  "homepage": "https://github.com/MarcinWolnyEU/ai-image-router-mcp#readme",
+  "dependencies": {
+    "@fiahfy/ico": "^0.0.5",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "gifenc": "^1.0.3",
+    "onnx-proto": "^8.0.1",
+    "onnxruntime-node": "^1.26.0",
+    "prompts": "^2.4.2",
+    "sharp": "^0.34.5",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@os-eco/trellis-cli": "github:jayminwest/trellis#5dc94429e704c9907a0ad87f59a3f162c151133f",
+    "@types/node": "^20.19.0",
+    "@types/prompts": "^2.4.9",
+    "tsx": "^4.22.4",
+    "typescript": "^5.7.3"
+  }
+}

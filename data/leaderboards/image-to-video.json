@@ -1,0 +1,20 @@
+{
+  "leaderboard": "image-to-video",
+  "title": "Image to Video",
+  "source": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+  "metric": "Artificial Analysis AA-Video-I2V v1.0 Elo (with-audio view, blind human preference)",
+  "captured": "2026-10-04",
+  "note": "Top 10 as of the capture date (default 'With Audio' view). The config wizard highlights any gateway model whose id/name matches one of these (via 'aliases') as '<rank> best as of 2026-10-04'. See docs/UPDATING-LEADERBOARDS.md to refresh.",
+  "models": [
+    { "rank": 1, "name": "MiniMax H3 Max (based on MiniMax H3)", "creator": "Fal", "elo": 1195, "released": "2026-08", "aliases": ["hailuo-3-max", "minimax-h3-max", "minimax h3 max"] },
+    { "rank": 2, "name": "MiniMax H3", "creator": "MiniMax", "elo": 1181, "released": "2026-07", "openWeights": true, "aliases": ["hailuo-3", "minimax-h3", "minimax h3"] },
+    { "rank": 3, "name": "Gemini Omni Flash", "creator": "Google", "elo": 1178, "released": "2026-05", "aliases": ["gemini-omni-flash", "gemini omni flash"] },
+    { "rank": 4, "name": "Dreamina Seedance 2.0 720p", "creator": "ByteDance Seed", "elo": 1176, "released": "2026-03", "aliases": ["dreamina-seedance-2.0", "seedance-2.0", "seedance 2.0", "dreamina seedance 2.0", "seedance2"] },
+    { "rank": 5, "name": "HiDream-O1-Video-1.0", "creator": "HiDream", "elo": 1175, "released": "2026-08", "aliases": ["hidream-o1-video-1.0", "hidream-o1-video", "hidream o1 video"] },
+    { "rank": 6, "name": "Wan 3.0", "creator": "Alibaba", "elo": 1164, "released": "2026-08", "aliases": ["wan-3.0", "wan 3.0", "wan3", "alibaba/wan-3.0"] },
+    { "rank": 7, "name": "HappyHorse-1.1", "creator": "Alibaba-ATH", "elo": 1104, "released": "2026-06", "aliases": ["happyhorse-1.1", "happy horse 1.1"] },
+    { "rank": 8, "name": "grok-imagine-video-1.5", "creator": "SpaceXAI", "elo": 1098, "released": "2026-05", "aliases": ["grok-imagine-video-1.5", "grok imagine video 1.5"] },
+    { "rank": 9, "name": "MAGI-2 Preview", "creator": "Sand.ai", "elo": 1093, "released": "2026-08", "openWeights": true, "aliases": ["magi-2-preview", "magi-2", "magi2"] },
+    { "rank": 10, "name": "HappyHorse-1.0", "creator": "Alibaba-ATH", "elo": 1083, "released": "2026-04", "aliases": ["happyhorse-1.0", "happyhorse", "happy horse"] }
+  ]
+}

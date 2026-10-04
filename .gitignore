@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Runtime-generated
+output/
+logs/
+models/
+.cache/
+
+# Local configuration (contains API tokens — never commit)
+config.json
+config.local.json
+.claude/
+
+# Provider token files (token text files in the project root)
+*.txt
+
+# Scratch / working notes (never committed)
+.temp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
